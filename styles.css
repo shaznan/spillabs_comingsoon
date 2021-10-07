@@ -5,6 +5,8 @@ body {
   padding: 0%;
   margin: 0%;
   font-family: "Montserrat", sans-serif;
+  max-height: 100vh;
+  overflow-y: hidden;
 }
 
 .logo-container {
@@ -64,35 +66,6 @@ body {
   margin-bottom: 1rem;
 }
 
-/* .timer-numbers {
-  display: flex;
-  flex-direction: row;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Oswald", sans-serif;
-  font-size: 2.5rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  width: 100%;
-} */
-
-/* .time-number {
-  background-color: #00aaeb;
-  padding: 0.5rem 0.7rem 0.5rem 0.7rem;
-  border-radius: 7px;
-}
-
-.time-number-group {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.time-label {
-  margin-top: 1rem;
-  font-size: 2rem;
-} */
-
 .simply-countdown {
   display: flex;
   color: white;
@@ -126,22 +99,57 @@ body {
   width: 100%;
   text-align: center;
   margin-top: 2rem;
-  margin-bottom: -2rem;
+  margin-bottom: -3rem;
 }
 
 .timer {
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 11px;
   width: 60%;
-  max-height: 15rem;
+  max-height: 13rem;
   padding-bottom: 4rem;
   display: flex;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   justify-content: center;
   backdrop-filter: blur(5px);
 }
 
-/* .timer-container {
-  width: 60%;
-  background-color: pink;
-} */
+.subContent-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.australia-map {
+  width: 80%;
+}
+
+.footer {
+  height: 100px;
+  margin-top: 3rem;
+  position: relative;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.footer-text {
+  font-size: 1.1rem;
+}
+
+.footer-icon {
+  color: #00aaeb;
+  margin-right: 0.5rem;
+}
+
+.footer:before {
+  content: "";
+  background: rgb(22, 20, 65);
+  background: linear-gradient(
+    90deg,
+    rgba(22, 20, 65, 1) 0%,
+    rgba(31, 29, 88, 1) 100%
+  );
+  position: absolute;
+  height: 100%;
+  width: 4000px;
+  left: -2000px;
+  z-index: -1;
+}
