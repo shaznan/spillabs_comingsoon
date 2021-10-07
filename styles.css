@@ -1,0 +1,147 @@
+body {
+  background-color: #161441;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo-container {
+  padding-top: 3rem;
+  padding-left: 3rem;
+}
+
+.comingsoon-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  background-color: aqua;
+  width: 50%;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  align-items: center;
+}
+.subContent {
+  width: 50%;
+}
+
+.content-body {
+  width: 70%;
+}
+
+.text-emphasize {
+  color: #00aaeb;
+  font-weight: bold;
+}
+
+.text-emphasize:hover,
+.text-emphasize:focus {
+  color: #17bdff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.join-us-text {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.text-box {
+  display: inline-block;
+  background-color: #00aaeb;
+  border-radius: 5px;
+  padding: 0.8rem;
+  height: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* .timer-numbers {
+  display: flex;
+  flex-direction: row;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+} */
+
+/* .time-number {
+  background-color: #00aaeb;
+  padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+  border-radius: 7px;
+}
+
+.time-number-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.time-label {
+  margin-top: 1rem;
+  font-size: 2rem;
+} */
+
+.simply-countdown {
+  display: flex;
+  color: white;
+  transform: scale(0.6);
+}
+
+.simply-countdown > .simply-section {
+  /* background-color: transparent; */
+  border: none;
+  margin-right: 1rem;
+  background-color: #00aaeb;
+  border-radius: 7px;
+}
+
+.simply-countdown > .simply-section .simply-amount {
+  /* background-color: red; */
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.simply-countdown > .simply-section .simply-word {
+  font-size: 1.5rem;
+}
+
+.seperator {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.timer-heading {
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: -2rem;
+}
+
+.timer {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 11px;
+  width: 60%;
+  max-height: 15rem;
+  padding-bottom: 4rem;
+  display: flex;
+  margin-bottom: 2rem;
+  justify-content: center;
+  backdrop-filter: blur(5px);
+}
+
+/* .timer-container {
+  width: 60%;
+  background-color: pink;
+} */
