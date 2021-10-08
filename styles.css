@@ -280,6 +280,7 @@ body {
   position: absolute;
   bottom: 0mm;
   left: 0;
+  right: 0mm;
   min-width: 100vw;
   padding: 0mm;
   margin: 0mm;
@@ -321,4 +322,22 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+
+.follow-us-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 480px) {
+  .follow-us-container {
+    flex-direction: row;
+  }
+  .follow-us {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .follow-us-text {
+    margin-right: 1rem;
+  }
 }
