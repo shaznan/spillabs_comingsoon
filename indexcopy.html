@@ -42,26 +42,16 @@
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
-    <img src="assets/Backgroundimage.png" class="bg-image" />
-    <!--Header row-->
-    <div class="row">
-      <div class="col-sm-12 logo-container">
-        <img src="assets/logo.png" class="logo" />
-      </div>
-    </div>
-    <!---End of Header row-->
+    <!-- <div class="logo-container">
+      <img src="assets/logo.png" width="144px" height="58" />
+    </div> -->
     <div class="container">
-      <!--coming soon title-->
-      <div class="row">
-        <div class="col-sm-12 comingsoon-container">
-          <img src="assets/comingsoon.png" class="comingsoon" />
+      <main>
+        <div class="comingsoon-container">
+          <img src="assets/comingsoon.png" width="300px" height="125.84px" />
         </div>
-      </div>
-      <!---End of coming soon title-->
-      <!---MAIN-->
-      <div class="row main">
-        <div class="col-sm-12 col-lg-6 main-subcontent">
-          <div class="subcontent subcontent-left">
+        <div class=".container-fluid main-content">
+          <div class="subContent">
             <div class="timer">
               <div class="timer-container">
                 <!---Timer-->
@@ -72,9 +62,10 @@
                   class="my-countdown simply-countdown"
                   id="my-countdown"
                 ></div>
+                <!---main countdown -->
               </div>
             </div>
-            <!---End of timer-->
+
             <p class="content-body">
               <!---Main content-->
               We are a R&D and implementation center for our Australian based IT
@@ -100,56 +91,42 @@
               for more details
             </p>
           </div>
-        </div>
-        <div class="col-sm-12 col-lg-6 main-subcontent">
           <div class="subContent subContent-right">
             <img src="assets/Australiamap.png" class="australia-map" />
           </div>
         </div>
-        <!---End of Main-->
-      </div>
-      <!---End of row-->
-    </div>
-    <div class="row" class="footer-container">
-      <div class="col-sm-12 footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6">
-              <h5>SPIL Labs (Pvt) Ltd</h5>
-              <p class="footer-text">
-                <i class="bi bi-geo-alt-fill footer-icon"></i>
-                Bernard Business Park, 2nd Floor, No. 106, Dutugamunu Street,
-                Kohuwala, Sri Lanka
-              </p>
-              <p class="footer-text">
-                <i class="bi bi-telephone-fill footer-icon"></i>+94 011 4066 723
-              </p>
-            </div>
-            <div
-              style="display: flex; justify-content: flex-end"
-              class="col-sm-6"
-            >
-              <div style="display: flex; flex-direction: column">
-                <h5>Follow Us On</h5>
-                <div>
-                  <span class="sm-icons">
-                    <img src="assets/instagram (3).png" class="sm-icon" />
-                  </span>
-                  <span class="sm-icons">
-                    <img src="/assets/facebook (3).png" class="sm-icon" />
-                  </span>
-                  <span class="sm-icons">
-                    <img src="/assets/linkedin (3).png" class="sm-icon" />
-                  </span>
-                </div>
-              </div>
-            </div>
+      </main>
+      <div class="footer main-content">
+        <div class="background-image"></div>
+        <div class="subContent">
+          <h5>SPIL Labs (Pvt) Ltd</h5>
+          <p class="footer-text">
+            <i class="bi bi-geo-alt-fill footer-icon"></i>
+            Bernard Business Park, 2nd Floor, No. 106, Dutugamunu Street,
+            Kohuwala, Sri Lanka
+          </p>
+          <p class="footer-text">
+            <i class="bi bi-telephone-fill footer-icon"></i>+94 011 4066 723
+          </p>
+        </div>
+        <div class="subContent subContent-right follow-us">
+          <h5>Follow Us On</h5>
+          <div>
+            <span class="sm-icons">
+              <img src="assets/instagram (3).png" class="sm-icon" />
+            </span>
+            <span class="sm-icons">
+              <img src="/assets/facebook (3).png" class="sm-icon" />
+            </span>
+            <span class="sm-icons">
+              <img src="/assets/linkedin (3).png" class="sm-icon" />
+            </span>
           </div>
         </div>
       </div>
     </div>
-    <!---End of footer-->
-    <!---End of container-->
+    <!---End of main container-->
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script
       src="https://code.jquery.com/jquery-1.12.4.min.js"
