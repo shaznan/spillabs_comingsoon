@@ -8,6 +8,21 @@ body {
   max-height: 100vh;
   overflow-y: hidden;
 }
+/* 
+.container {
+
+} */
+
+.background-image {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./assets/Backgroundimage.png");
+  background-repeat: no-repeat;
+  background-size: 70vw 100vh;
+  background-position-y: -14rem;
+  z-index: -2;
+}
 
 .logo-container {
   padding-top: 3rem;
@@ -103,7 +118,7 @@ body {
 }
 
 .timer {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.08);
   border-radius: 11px;
   width: 60%;
   max-height: 13rem;
@@ -152,4 +167,16 @@ body {
   width: 4000px;
   left: -2000px;
   z-index: -1;
+}
+
+.sm-icon {
+  width: 2.5rem;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+}
+
+.follow-us {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
